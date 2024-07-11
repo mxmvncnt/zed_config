@@ -1,0 +1,30 @@
+[
+  {
+    "label": "NextJS: Start Dev server",
+    "command": "next dev",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Maven: Start Spring Boot application",
+    "command": "mvn spring-boot:run",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Maven: Run tests",
+    "command": "mvn clean test",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Git Pull",
+    "command": "git pull",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
