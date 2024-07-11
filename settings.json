@@ -1,0 +1,26 @@
+{
+  "assistant": {
+    "version": "1",
+    "provider": {
+      "name": "openai",
+      "type": "openai",
+      "default_model": "gpt-4-turbo-preview",
+      "api_url": "http://localhost:11434/v1"
+    }
+  },
+  "base_keymap": "JetBrains",
+  "theme": "Colorizer",
+  "autosave": "on_focus_change",
+  "format_on_save": "off",
+  "project_panel": {
+    "dock": "left"
+  },
+  "languages": {
+    "TypeScript": {
+        "tab_size": 4
+    },
+    "TSX": {
+        "tab_size": 4
+    }
+  }
+}
